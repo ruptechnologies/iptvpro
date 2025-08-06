@@ -1,0 +1,14 @@
+{
+  "builds": [
+    {
+      "src": "src/renderer/index.html",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "src/renderer/dist"
+      }
+    }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "/" }
+  ]
+}
