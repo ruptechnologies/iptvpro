@@ -6,6 +6,9 @@
   "author": {
     "name": "4gray",
     "email": "fourgray@proton.me"
+    "scripts": {
+  "build": "cd src/renderer && npm install && npm run build"
+}
   },
   "keywords": [
     "angular",
