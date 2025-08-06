@@ -5,7 +5,7 @@
   "homepage": "https://github.com/4gray/iptvnator",
   "author": {
     "name": "4gray",
-    "email": "fourgray@proton.me"
+    "email": "fourgray@proton.me",
     "scripts": {
   "build": "cd src/renderer && npm install && npm run build"
 }
